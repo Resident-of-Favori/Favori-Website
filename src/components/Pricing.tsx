@@ -3,42 +3,32 @@ import { AnimateOnScroll } from "./SectionObserver";
 
 const plans = [
   {
-    name: "Solo",
-    price: "99K",
+    name: "Gói ảnh dọc",
+    price: "80.000đ",
     features: [
-      "1 người chụp",
-      "15 phút chụp thoả thích",
-      "2 tấm in ảnh",
-      "File gốc gửi qua Zalo",
+      "Không giới hạn số người chụp",
+      "5 phút chụp thỏa thích hoặc 10 tấm chụp tự động",
+      "Nhận 2 tấm ảnh in",
+      "Quét mã QR để lấy file ảnh gốc trong vòng 1 ngày",
     ],
-    accent: "ocean",
     popular: false,
   },
   {
-    name: "Bestie",
-    price: "149K",
+    name: "Gói phổ biến nhất",
+    price: "120.000đ",
     features: [
-      "2–3 người chụp",
-      "20 phút chụp thoả thích",
-      "4 tấm in ảnh",
-      "File gốc gửi qua Zalo",
-      "Phụ kiện concept",
+      "Ảnh in kích thước lớn hơn",
+      "Không giới hạn số người chụp",
+      "5 phút chụp thỏa thích hoặc 10 tấm chụp tự động",
+      "Nhận 2 tấm ảnh in",
+      "Quét mã QR để lấy file ảnh gốc trong vòng 1 ngày",
     ],
-    accent: "coral",
     popular: true,
   },
   {
-    name: "Squad",
-    price: "199K",
-    features: [
-      "4–6 người chụp",
-      "30 phút chụp thoả thích",
-      "6 tấm in ảnh",
-      "File gốc gửi qua Zalo",
-      "Phụ kiện concept",
-      "Thêm backdrop tuỳ chọn",
-    ],
-    accent: "sunset",
+    name: "Gói đặc biệt",
+    price: "150.000đ",
+    features: ["Thông tin chi tiết cần bổ sung thêm"],
     popular: false,
   },
 ];
@@ -56,10 +46,10 @@ export function Pricing() {
               className="text-3xl md:text-5xl font-bold text-charcoal"
               style={{ fontFamily: "var(--font-playfair)" }}
             >
-              Giá chụp photobooth Hải Phòng
+              Bảng giá chụp photobook
             </h2>
             <p className="mt-4 text-charcoal-light">
-              Giá đã bao gồm in ảnh và file gốc. Không phát sinh!
+              Chọn gói ảnh phù hợp với phong cách của bạn
             </p>
           </div>
         </AnimateOnScroll>
@@ -90,7 +80,7 @@ export function Pricing() {
                   >
                     {plan.price}
                   </span>
-                  <span className="text-charcoal-light text-sm"> /lượt</span>
+                  <span className="text-charcoal-light text-sm">/lượt</span>
                 </div>
 
                 <ul className="space-y-3 mb-8">

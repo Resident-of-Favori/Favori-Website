@@ -21,7 +21,7 @@ const faqs = [
   },
   {
     q: "Photobooth Favori có concept gì?",
-    a: "Favori Foto hiện có 2 concept chụp: \"Hải Dương\" — lấy cảm hứng từ đại dương với backdrop biển xanh và phụ kiện vỏ sò; \"Viễn Du\" — phong cách western mùa hè với backdrop hoàng hôn và phụ kiện cowboy. Concept được cập nhật theo mùa.",
+    a: "Favori Foto hiện có 6 concept chụp: Nhà Hát Của Những Giấc Mơ, Chớp Thoáng Đông Dương, Đêm Xanh, Chạm Môi, Hải Dương và Viễn Du. Mỗi concept có phông nền, màu sắc và phong cách riêng.",
   },
   {
     q: "Có cần đặt lịch trước không?",
@@ -29,15 +29,15 @@ const faqs = [
   },
   {
     q: "Chụp photobooth mất bao lâu?",
-    a: "Mỗi lượt chụp kéo dài từ 15 đến 30 phút tuỳ gói. Bạn có thể chụp thoả thích trong thời gian này và nhận ảnh ngay sau khi chụp xong.",
+    a: "Gói ảnh dọc và gói phổ biến nhất cho bạn 5 phút chụp thỏa thích hoặc 10 tấm chụp tự động.",
   },
   {
     q: "Có nhận ảnh liền không?",
-    a: "Có! Ảnh được in tại chỗ ngay sau khi chụp. Ngoài ra, bạn cũng nhận file gốc chất lượng cao qua Zalo trong ngày.",
+    a: "Có! Bạn nhận 2 tấm ảnh in và có thể quét mã QR để lấy file ảnh gốc trong vòng 1 ngày.",
   },
   {
     q: "Giá chụp photobooth ở Hải Phòng khoảng bao nhiêu?",
-    a: "Tại Favori Foto, giá chụp photobooth từ 99K cho gói Solo (1 người), 149K cho gói Bestie (2-3 người), và 199K cho gói Squad (4-6 người). Giá đã bao gồm in ảnh và file gốc.",
+    a: "Tại Favori Foto, gói ảnh dọc có giá 80.000đ/lượt, gói phổ biến nhất có giá 120.000đ/lượt và gói đặc biệt có giá 150.000đ/lượt.",
   },
   {
     q: "Favori Foto phù hợp với ai?",
@@ -45,7 +45,7 @@ const faqs = [
   },
   {
     q: "Có thể chụp nhóm không?",
-    a: "Có! Gói Squad hỗ trợ nhóm từ 4-6 người với 30 phút chụp thoả thích. Nếu nhóm đông hơn, bạn có thể liên hệ trước để sắp xếp.",
+    a: "Có! Gói ảnh dọc và gói phổ biến nhất không giới hạn số người chụp.",
   },
   {
     q: "Favori Foto có gần trung tâm Hải Phòng không?",
